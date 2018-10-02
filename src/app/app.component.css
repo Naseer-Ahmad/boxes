@@ -1,0 +1,44 @@
+.header-div{
+    border: 3px solid black;
+    height: 330px;
+    width: 840px;
+    /* text-align: center; */
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.box1{
+    bottom: 50%;
+    height: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.box2{
+
+    bottom: 50%;
+    height: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* margin-left: 0px; */
+}
+
+.inner-div{
+    width: 96%;
+    height: 96%;
+    border: 8px solid black;
+    margin: 3px 4px;
+}
+
+@media only screen and (max-width: 576px)    {
+    .box1{
+        width: 260px;
+    }
+    .box2{
+        width: 260px;
+    }
+}
